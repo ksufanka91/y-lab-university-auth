@@ -1,9 +1,10 @@
 import './App.css';
+import AuthForm from "./components/content/LoginForm/LoginForm";
 
 function App() {
     return (
         <div className="App">
-            <div>11111</div>
+            <AuthForm/>
         </div>
     );
 }

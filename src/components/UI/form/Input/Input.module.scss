@@ -1,0 +1,17 @@
+.input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: 1px solid #e6e6e6;
+    color: var(--form-placeholder-color);
+    background: transparent;
+
+    @media (max-width: 430px) {
+        padding: 15px;
+    }
+
+    &::placeholder {
+        font-size: 14px;
+    }
+}
